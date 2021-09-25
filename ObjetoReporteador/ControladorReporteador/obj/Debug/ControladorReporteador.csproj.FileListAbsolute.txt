@@ -1,0 +1,9 @@
+D:\Documentos\Proyectos-Software\Reporteador\ObjetoReporteador\ControladorReporteador\bin\Debug\ControladorReporteador.dll
+D:\Documentos\Proyectos-Software\Reporteador\ObjetoReporteador\ControladorReporteador\bin\Debug\ControladorReporteador.pdb
+D:\Documentos\Proyectos-Software\Reporteador\ObjetoReporteador\ControladorReporteador\obj\Debug\ControladorReporteador.csprojAssemblyReference.cache
+D:\Documentos\Proyectos-Software\Reporteador\ObjetoReporteador\ControladorReporteador\obj\Debug\ControladorReporteador.csproj.CoreCompileInputs.cache
+D:\Documentos\Proyectos-Software\Reporteador\ObjetoReporteador\ControladorReporteador\obj\Debug\ControladorReporteador.dll
+D:\Documentos\Proyectos-Software\Reporteador\ObjetoReporteador\ControladorReporteador\obj\Debug\ControladorReporteador.pdb
+D:\Documentos\Proyectos-Software\Reporteador\ObjetoReporteador\ControladorReporteador\bin\Debug\ModeloReporteador.dll
+D:\Documentos\Proyectos-Software\Reporteador\ObjetoReporteador\ControladorReporteador\bin\Debug\ModeloReporteador.pdb
+D:\Documentos\Proyectos-Software\Reporteador\ObjetoReporteador\ControladorReporteador\obj\Debug\ControladorReporteador.csproj.CopyComplete
