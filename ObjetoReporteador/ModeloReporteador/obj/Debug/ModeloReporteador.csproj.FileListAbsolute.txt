@@ -1,0 +1,6 @@
+D:\Documentos\Proyectos-Software\Reporteador\ObjetoReporteador\ModeloReporteador\bin\Debug\ModeloReporteador.dll
+D:\Documentos\Proyectos-Software\Reporteador\ObjetoReporteador\ModeloReporteador\bin\Debug\ModeloReporteador.pdb
+D:\Documentos\Proyectos-Software\Reporteador\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.csprojAssemblyReference.cache
+D:\Documentos\Proyectos-Software\Reporteador\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.csproj.CoreCompileInputs.cache
+D:\Documentos\Proyectos-Software\Reporteador\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.dll
+D:\Documentos\Proyectos-Software\Reporteador\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.pdb
