@@ -4,3 +4,8 @@ D:\Documentos\Proyectos-Software\Reporteador\ObjetoReporteador\ModeloReporteador
 D:\Documentos\Proyectos-Software\Reporteador\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.csproj.CoreCompileInputs.cache
 D:\Documentos\Proyectos-Software\Reporteador\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.dll
 D:\Documentos\Proyectos-Software\Reporteador\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.pdb
+C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\bin\Debug\ModeloReporteador.dll
+C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\bin\Debug\ModeloReporteador.pdb
+C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.csproj.CoreCompileInputs.cache
+C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.dll
+C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.pdb

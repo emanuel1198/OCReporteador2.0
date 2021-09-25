@@ -1,6 +1,8 @@
 ﻿using ModeloReporteador;
 using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.Odbc;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,5 +34,35 @@ namespace ControladorReporteador
                 "WHERE (idReporte = '"+ id +"');";
             con.Guardar(cadena);
         }
+
+        public string[] items(string tabla, string campo1, string campo2)
+        {
+            string[] Items = con.llenarCmb(tabla, campo1, campo2);
+            return Items;
+        }
+
+        public DataTable enviar(string tabla, string campo1, string campo2)
+        {
+            var dt1 = con.obtener(tabla, campo1, campo2);
+            return dt1;
+        }
+
+        Consultas cons = new Consultas();
+
+        public DataTable llenarTbl(string tabla)
+        {
+            OdbcDataAdapter dt = cons.llenarTbl(tabla);
+            DataTable table = new DataTable();
+            dt.Fill(table);
+            return table;
+        }
+
+        public void data(string tabla)
+        {
+            string cadena = @"SELECT * FROM provisional.reportes;";            
+            con.dataGrid(tabla, cadena);
+            
+        }
+
     }
 }
