@@ -26,3 +26,17 @@ C:\Users\Carol\Desktop\Reporteador1.1\Reporteador\ObjetoReporteador\VistaReporte
 C:\Users\Carol\Desktop\Reporteador1.1\Reporteador\ObjetoReporteador\VistaReporteador\obj\Debug\VistaReporteador.csproj.CopyComplete
 C:\Users\Carol\Desktop\Reporteador1.1\Reporteador\ObjetoReporteador\VistaReporteador\obj\Debug\VistaReporteador.dll
 C:\Users\Carol\Desktop\Reporteador1.1\Reporteador\ObjetoReporteador\VistaReporteador\obj\Debug\VistaReporteador.pdb
+C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\VistaReporteador\obj\Debug\VistaReporteador.frmEliminar.resources
+C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\VistaReporteador\obj\Debug\VistaReporteador.Reporteador.resources
+C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\VistaReporteador\obj\Debug\VistaReporteador.csproj.GenerateResource.cache
+C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\VistaReporteador\obj\Debug\VistaReporteador.csproj.CoreCompileInputs.cache
+C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\VistaReporteador\obj\Debug\VistaReporteador.dll
+C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\VistaReporteador\obj\Debug\VistaReporteador.pdb
+C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\VistaReporteador\bin\Debug\VistaReporteador.dll
+C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\VistaReporteador\bin\Debug\VistaReporteador.pdb
+C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\VistaReporteador\bin\Debug\ControladorReporteador.dll
+C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\VistaReporteador\bin\Debug\ModeloReporteador.dll
+C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\VistaReporteador\bin\Debug\ControladorReporteador.pdb
+C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\VistaReporteador\bin\Debug\ModeloReporteador.pdb
+C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\VistaReporteador\obj\Debug\VistaReporteador.csproj.CopyComplete
+C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\VistaReporteador\obj\Debug\VistaReporteador.csprojAssemblyReference.cache
