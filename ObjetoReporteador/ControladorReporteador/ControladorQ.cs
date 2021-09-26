@@ -17,6 +17,10 @@ namespace ControladorReporteador
             int estadofinal;
             string Vis = "Visible";
 
+            string exc = @"\\";
+            string orgn = @"\";
+            ruta = ruta.Replace(orgn, exc);
+
             if (estado.Equals(Vis))
             {
                 estadofinal = 1;

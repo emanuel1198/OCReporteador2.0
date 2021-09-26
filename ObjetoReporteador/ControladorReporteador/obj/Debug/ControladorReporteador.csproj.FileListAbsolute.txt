@@ -16,3 +16,12 @@ C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.
 C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\ControladorReporteador\bin\Debug\ModeloReporteador.dll
 C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\ControladorReporteador\bin\Debug\ModeloReporteador.pdb
 C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\ControladorReporteador\obj\Debug\ControladorReporteador.csproj.CopyComplete
+D:\Luis David\UMG\2, 2021\Analisis de sistemas II\Repositorio de github\OCReporteador2.0\ObjetoReporteador\ControladorReporteador\bin\Debug\ControladorReporteador.dll
+D:\Luis David\UMG\2, 2021\Analisis de sistemas II\Repositorio de github\OCReporteador2.0\ObjetoReporteador\ControladorReporteador\bin\Debug\ControladorReporteador.pdb
+D:\Luis David\UMG\2, 2021\Analisis de sistemas II\Repositorio de github\OCReporteador2.0\ObjetoReporteador\ControladorReporteador\bin\Debug\ModeloReporteador.dll
+D:\Luis David\UMG\2, 2021\Analisis de sistemas II\Repositorio de github\OCReporteador2.0\ObjetoReporteador\ControladorReporteador\bin\Debug\ModeloReporteador.pdb
+D:\Luis David\UMG\2, 2021\Analisis de sistemas II\Repositorio de github\OCReporteador2.0\ObjetoReporteador\ControladorReporteador\obj\Debug\ControladorReporteador.csproj.AssemblyReference.cache
+D:\Luis David\UMG\2, 2021\Analisis de sistemas II\Repositorio de github\OCReporteador2.0\ObjetoReporteador\ControladorReporteador\obj\Debug\ControladorReporteador.csproj.CoreCompileInputs.cache
+D:\Luis David\UMG\2, 2021\Analisis de sistemas II\Repositorio de github\OCReporteador2.0\ObjetoReporteador\ControladorReporteador\obj\Debug\ControladorReporteador.csproj.CopyComplete
+D:\Luis David\UMG\2, 2021\Analisis de sistemas II\Repositorio de github\OCReporteador2.0\ObjetoReporteador\ControladorReporteador\obj\Debug\ControladorReporteador.dll
+D:\Luis David\UMG\2, 2021\Analisis de sistemas II\Repositorio de github\OCReporteador2.0\ObjetoReporteador\ControladorReporteador\obj\Debug\ControladorReporteador.pdb
