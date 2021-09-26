@@ -9,3 +9,9 @@ C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.
 C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.csproj.CoreCompileInputs.cache
 C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.dll
 C:\Users\Angel\Documents\Visual Proyectos\segundo proyecto\Combo\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.pdb
+D:\Luis David\UMG\2, 2021\Analisis de sistemas II\Repositorio de github\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\bin\Debug\ModeloReporteador.dll
+D:\Luis David\UMG\2, 2021\Analisis de sistemas II\Repositorio de github\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\bin\Debug\ModeloReporteador.pdb
+D:\Luis David\UMG\2, 2021\Analisis de sistemas II\Repositorio de github\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.csproj.AssemblyReference.cache
+D:\Luis David\UMG\2, 2021\Analisis de sistemas II\Repositorio de github\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.csproj.CoreCompileInputs.cache
+D:\Luis David\UMG\2, 2021\Analisis de sistemas II\Repositorio de github\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.dll
+D:\Luis David\UMG\2, 2021\Analisis de sistemas II\Repositorio de github\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.pdb
