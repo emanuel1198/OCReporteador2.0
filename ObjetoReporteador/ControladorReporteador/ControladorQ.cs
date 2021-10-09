@@ -6,49 +6,65 @@ using System.Data.Odbc;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ControladorReporteador
 {
     public class ControladorQ
     {
         Consultas con = new Consultas();
-        public void Actualizar(string nombre, string ruta, string departamento, string estado, string id)
+        public void Actualizar(string nombre, string ruta, string IdAplicacion, string estado, string id)
         {
-            int estadofinal;
-            string Vis = "Visible";
-
+            string exc = @"\\";
+            string orgn = @"\";
+            ruta = ruta.Replace(orgn, exc);
+            
+            string cadena = "UPDATE reportes SET " +
+                "Nombre = '" + nombre +"', " +
+                "Ruta = '" + ruta +"', " +
+                "IdAplicacion = '" + IdAplicacion +"', " +
+                "Estado = '" + estado + "' " +
+                "WHERE (IdReporte = '" + id +"');";
+                con.Guardar(cadena);
+        }
+        
+        public void GuardarD(string id, string nombre, string ruta, string IdAplicacion, string estado)
+        {
             string exc = @"\\";
             string orgn = @"\";
             ruta = ruta.Replace(orgn, exc);
 
-            if (estado.Equals(Vis))
-            {
-                estadofinal = 1;
-            }
-            else
-            {
-                estadofinal = 0;
-            }
-
-            string cadena = "UPDATE reportes SET " +
-                "nombreReporte = '"+ nombre +"', " +
-                "rutaReporte = '"+ ruta +"', " +
-                "Departamento = '"+ departamento +"', " +
-                "estado = '"+estadofinal+"' " +
-                "WHERE (idReporte = '"+ id +"');";
-            con.Guardar(cadena);
+            string cadena = "INSERT INTO Reportes VALUES('" + id + "','" + nombre + "','" + ruta + "','" + IdAplicacion + "','" + estado + "');";
+                con.Guardar(cadena);
         }
 
-        public string[] items(string tabla, string campo1, string campo2)
-        {
-            string[] Items = con.llenarCmb(tabla, campo1, campo2);
-            return Items;
+        //Funcion para obtener el IdModulo
+        public OdbcDataReader IdModulo(string nombreM)
+        {        
+            string cadena = "Select IdModulo from modulos where Nombre = '" + nombreM + "';";
+            return con.IdMod(cadena);          
         }
 
-        public DataTable enviar(string tabla, string campo1, string campo2)
+        //Funcion para obtener el nombre del modulo en combobox
+        public OdbcDataReader llenarcbxModulo()
         {
-            var dt1 = con.obtener(tabla, campo1, campo2);
-            return dt1;
+            string sql = "SELECT Nombre FROM provisional.modulos;";
+            return con.llenarcbxmodulo(sql);
+        }
+
+
+        //Funcion para obtener el IdAplic
+        public OdbcDataReader IdAplici(string nombreA)
+        {
+            string cadena = "Select IdAplicacion from aplicacion where Nombre = '" + nombreA + "';";
+            return con.IdAplic(cadena);
+        }
+
+        //Funcion para obtener el nombre de la aplicacion en combobox
+        public OdbcDataReader llenarcbxAplic()
+        {
+            string sql = "SELECT Nombre FROM provisional.aplicacion;";
+            return con.llenarcbxAplicacion(sql);
         }
 
         Consultas cons = new Consultas();
@@ -64,8 +80,7 @@ namespace ControladorReporteador
         public void data(string tabla)
         {
             string cadena = @"SELECT * FROM provisional.reportes;";            
-            con.dataGrid(tabla, cadena);
-            
+            con.dataGrid(tabla, cadena);            
         }
 
     }
