@@ -76,6 +76,13 @@ namespace ControladorReporteador
             dt.Fill(table);
             return table;
         }
+        public DataTable llenarTb2(string datob) //Aquie creamos la funcion DataTable llenarTb2 que resive el dato que esta en el variable datob
+        {
+            OdbcDataAdapter db = cons.llenarTb2(datob); //creamos un objeto 
+            DataTable table = new DataTable();
+            db.Fill(table);
+            return table;
+        }
 
         public void data(string tabla)
         {
