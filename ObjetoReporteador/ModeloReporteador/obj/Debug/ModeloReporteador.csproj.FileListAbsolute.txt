@@ -21,3 +21,9 @@ C:\Users\Angel\Documents\Visual Studio 2017\Visual Proyectos\Segundo proyecto\Gr
 C:\Users\Angel\Documents\Visual Studio 2017\Visual Proyectos\Segundo proyecto\Grupo4\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.dll
 C:\Users\Angel\Documents\Visual Studio 2017\Visual Proyectos\Segundo proyecto\Grupo4\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.pdb
 C:\Users\Angel\Documents\Visual Studio 2017\Visual Proyectos\Segundo proyecto\Grupo4\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.csprojAssemblyReference.cache
+D:\Luis David\UMG\Proyecto fianl\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\bin\Debug\ModeloReporteador.dll
+D:\Luis David\UMG\Proyecto fianl\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\bin\Debug\ModeloReporteador.pdb
+D:\Luis David\UMG\Proyecto fianl\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.csproj.AssemblyReference.cache
+D:\Luis David\UMG\Proyecto fianl\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.csproj.CoreCompileInputs.cache
+D:\Luis David\UMG\Proyecto fianl\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.dll
+D:\Luis David\UMG\Proyecto fianl\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.pdb

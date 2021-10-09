@@ -98,6 +98,14 @@ namespace ModeloReporteador
             OdbcDataAdapter dataTable = new OdbcDataAdapter(sql, con.conexion());
             return dataTable;
         }
+        // Luis Reyes 0901-15-3121
+        public OdbcDataAdapter llenarTb2(string datob)// metodo que obtinene de la tabla de la busqueda 
+        {
+            //string para almacenar los campos de OBTENERCAMPOS y utilizar el 1ro
+            string sql = "SELECT * FROM Reportes where Nombre = '" + datob + "' ;"; // aqui ponemos la consulta de la busqueda que vallamos hacer en la BD
+            OdbcDataAdapter dataTable = new OdbcDataAdapter(sql, con.conexion()); // aqui creamos un objeto de OdbcDataAda y le mandamos la consulta y abrimos conecion con la BD
+            return dataTable; // Aquie retorna el dataTable
+        }
 
         clsConexion con = new clsConexion();
                 
