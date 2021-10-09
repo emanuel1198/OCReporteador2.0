@@ -15,3 +15,9 @@ D:\Luis David\UMG\2, 2021\Analisis de sistemas II\Repositorio de github\OCReport
 D:\Luis David\UMG\2, 2021\Analisis de sistemas II\Repositorio de github\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.csproj.CoreCompileInputs.cache
 D:\Luis David\UMG\2, 2021\Analisis de sistemas II\Repositorio de github\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.dll
 D:\Luis David\UMG\2, 2021\Analisis de sistemas II\Repositorio de github\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.pdb
+C:\Users\Angel\Documents\Visual Studio 2017\Visual Proyectos\Segundo proyecto\Grupo4\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\bin\Debug\ModeloReporteador.dll
+C:\Users\Angel\Documents\Visual Studio 2017\Visual Proyectos\Segundo proyecto\Grupo4\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\bin\Debug\ModeloReporteador.pdb
+C:\Users\Angel\Documents\Visual Studio 2017\Visual Proyectos\Segundo proyecto\Grupo4\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.csproj.CoreCompileInputs.cache
+C:\Users\Angel\Documents\Visual Studio 2017\Visual Proyectos\Segundo proyecto\Grupo4\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.dll
+C:\Users\Angel\Documents\Visual Studio 2017\Visual Proyectos\Segundo proyecto\Grupo4\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.pdb
+C:\Users\Angel\Documents\Visual Studio 2017\Visual Proyectos\Segundo proyecto\Grupo4\OCReporteador2.0\ObjetoReporteador\ModeloReporteador\obj\Debug\ModeloReporteador.csprojAssemblyReference.cache

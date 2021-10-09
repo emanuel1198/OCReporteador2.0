@@ -1,41 +1,69 @@
+-- -----------------------------------------------------
+-- BD prov
+-- -----------------------------------------------------
 create database provisional;
 use provisional;
 
-Create Table departamentos (
-IdDepartamento varchar(15) NOT NULL,
-PRIMARY KEY (IdDepartamento),
-nombredepartamento varchar(50) NOT NULL,
-estado boolean NOT NULL
+Create Table Modulos (
+IdModulo varchar(15) NOT NULL,
+PRIMARY KEY (IdModulo),
+Nombre varchar(50) NOT NULL,
+Estado boolean NOT NULL
 )ENGINE = InnoDB DEFAULT CHARACTER SET = latin1;
 
-insert into departamentos values ('D1','Contabilidad',1);
-insert into departamentos values ('D2','Analisis',1);
-insert into departamentos values ('D3','Disenio',1);
-insert into departamentos values ('D4','Infraestrutura',1);
-insert into departamentos values ('D5','Seguridad',1);
+INSERT INTO Modulos VALUES ('D1','Contabilidad',1);
+INSERT INTO Modulos VALUES ('D2','RRHH',1);
+INSERT INTO Modulos VALUES ('D3','Hoteleria',1);
+INSERT INTO Modulos VALUES ('D4','Compras',1);
+INSERT INTO Modulos VALUES ('D5','Seguridad',1);
+INSERT INTO Modulos VALUES ('D6','Bancos',1);
+
+Create Table Aplicacion (
+IdAplicacion varchar(15) NOT NULL,
+PRIMARY KEY (IdAplicacion),
+Nombre varchar(45) NOT NULL,
+IdModulo varchar(15) NOT NULL,
+Estado varchar(1) NOT NULL,
+foreign key (IdModulo) references Modulos (IdModulo)
+)ENGINE = InnoDB DEFAULT CHARACTER SET = latin1;
+
+INSERT INTO Aplicacion VALUES ('A1','Aplicacion1','D1',1);
+INSERT INTO Aplicacion VALUES ('A2','Aplicacion2','D2',1);
+INSERT INTO Aplicacion VALUES ('A3','Aplicacion3','D3',1);
+INSERT INTO Aplicacion VALUES ('A4','Aplicacion4','D4',1);
 
 Create Table Reportes (
-idReporte varchar(15) NOT NULL,
-PRIMARY KEY (idReporte),
-nombreReporte varchar(20) NOT NULL,
-rutaReporte varchar(100) NOT NULL,
-IdDepartamento varchar(20) NOT NULL,
-estado boolean NOT NULL,
-foreign key (IdDepartamento) references departamentos (IdDepartamento)
+IdReporte varchar(15) NOT NULL,
+PRIMARY KEY (IdReporte),
+Nombre varchar(20) NOT NULL,
+Ruta varchar(2500) NOT NULL,
+IdAplicacion varchar(20) NOT NULL,
+Estado boolean NOT NULL,
+foreign key (IdAplicacion) references Aplicacion (IdAplicacion)
 )ENGINE = InnoDB DEFAULT CHARACTER SET = latin1;
 
-INSERT INTO Reportes (idReporte, nombreReporte, rutaReporte, IdDepartamento, estado) 
-VALUES (1, 'Pagos agosto','C:\Users\alvar\source\repos\Report\VistaReport\bin\Debug','D1', 1);
+INSERT INTO Reportes VALUES ('R1', 'Reporte1',"C:\Users\Grupo4\OCReporteador2.0\ObjetoReporteador\Report1.rpt", 'A1', 1);
+INSERT INTO Reportes VALUES ('R2', 'Reporte2',"C:\Users\Grupo4\OCReporteador2.0\ObjetoReporteador\Report1.rpt", 'A2', 1);
+INSERT INTO Reportes VALUES ('R3', 'Reporte3',"C:\Users\Grupo4\OCReporteador2.0\ObjetoReporteador\Report1.rpt", 'A3', 1);
+INSERT INTO Reportes VALUES ('R4', 'Reporte4',"C:\Users\Grupo4\OCReporteador2.0\ObjetoReporteador\Report1.rpt", 'A4', 1);
 
-INSERT INTO Reportes (idReporte, nombreReporte, rutaReporte, IdDepartamento, estado) 
-VALUES (2, 'Pagos septiembre','C:\Users\source\repos\Report\bin\Debug','D2', 1);
-
-INSERT INTO Reportes (idReporte, nombreReporte, rutaReporte, IdDepartamento, estado) 
-VALUES (3, 'Pagos octubre','C:\Users\source\repos\Report\VistaReport\bin','D1', 1);
-
-delete from departamentos;
-select * from departamentos;
 select * from Reportes;
--- delete from Reportes;
+select * from aplicacion;
+select * from modulos;
 
-Select IdDepartamento from departamentos where nombredepartamento = "Seguridad";
+SELECT aplicacion.IdAplicacion, aplicacion.Nombre, aplicacion.IdModulo, aplicacion.Estado, modulos.Nombre, modulos.Estado
+FROM aplicacion  
+INNER JOIN modulos  
+ON aplicacion.IdModulo = modulos.IdModulo;
+
+SELECT aplicacion.IdAplicacion, aplicacion.Nombre, aplicacion.Estado, aplicacion.IdModulo, modulos.Nombre, modulos.Estado
+FROM aplicacion  
+INNER JOIN modulos  
+ON aplicacion.IdModulo = modulos.IdModulo;
+
+#delete from Reportes;
+#delete from departamentos;
+
+#Select IdDepartamento from departamentos where nombredepartamento = "Seguridad";
+#Select * from Reportes where nombreReporte = "Pagos";
+#Select IdDepartamento from departamentos where nombredepartamento = 'Bancos'; 
